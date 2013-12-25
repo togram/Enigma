@@ -14,6 +14,22 @@
         <title>Enigma Machine</title>
     </head>
     <body>
+        <h1><center>Enigma Machine</center></h1>
+        <div class="wheels">
+            <button class="wheel">+</span>
+            <button class="wheel">+</span>
+            <button class="wheel">+</span>
+        </div>
+        <div class="wheels">
+            <span id="wheel-3" class="wheel">0</span>
+            <span id="wheel-2" class="wheel">0</span>
+            <span id="wheel-1" class="wheel">0</span>
+        </div>
+        <div class="wheels">
+            <button class="wheel">-</span>
+            <button class="wheel">-</span>
+            <button class="wheel">-</span>
+        </div>
         <table class="keyboard">
             <tr class="key-row top-row">
                 <td id="q" class="key">Q</td>
@@ -27,7 +43,7 @@
                 <td id="o" class="key">O</td>
                 <td id="p" class="key">P</td>
             </tr>
-            <tr class="key-row middle-row">
+            <tr class="key-row">
                 <td id="a" class="key">A</td>
                 <td id="s" class="key">S</td>
                 <td id="d" class="key">D</td>
@@ -49,6 +65,7 @@
             </tr> 
         </table>
         <textarea id="input"></textarea>
+        <span id="output"></span>
         <script src="jquery.js"></script>
         <script src="main.js"></script>
     </body>
